@@ -6,7 +6,7 @@ import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import NearMeIcon from "@material-ui/icons/NearMe";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import db from "../firebase";
+import db from "./firebase";
 
 const getLikes = (likes) => {
   if (likes >= 1000 * 1000) return `${likes / (1000 * 1000)}M`;
